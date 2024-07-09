@@ -37,7 +37,7 @@ h6{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
+    height: 70%;
 
 }
 .deliver{
@@ -50,24 +50,148 @@ h6{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: yellow;
+    /* background-color: red; */
+    height: 120px;
 }
-.logo{
-    /* width: 10%; */
-    /* height: 10%; */
+.start{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 
 }
-.left{
-    width: 10%;
-    height: 10%;
+.end{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
 }
-.pic1{
+.logo{
+    width: 50%;
+    height: 50%;
+   
+    /* background-color: aqua; */
+}
+.logo>.pic2{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+   
+}
+
+.search{
+    margin-top: 40px;
+    margin-right: 100px;
+    
+}
+.new{
+    color: black;
+    font-size: 15px;
+}
+input{
+    border: none;
+    border-bottom: 1px solid ;
+}
+.jerike{
+    margin-top: 30px;
+}
+.link{
+    transition: 2s;
+}
+li:hover{
+    scale: 1.2;
+}
+/*  */
+/* card */
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.card{
+    border: none;
+}
+/*  */
+/* qr */
+.content{
+    background-color: rgb(180, 180, 93);
+    width: 100%;
+    height: 250px;
+    margin-top: 80px;
+}
+/*  */
+/* divider */
+.divide{
+    width: 100%;
+    margin-top: 30px;
+}
+/*  */
+/* head1 */
+.head{
+    text-align: center;
+    margin-top: 40px;
+}
+/*  */
+/* overflow */
+.father{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+}
+.son{
+    transition: .5s;
+}
+.outfit{
+    margin: 20px;
+}
+.son:hover{
+    scale: 1.2;
+}
+/*  */
+/* zindex */
+.white{
+    position: relative;
+    width: 90%;
+    height: 70%;
+    /* background-color: aqua; */
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.index2{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    /* background-color: red; */
+    width: 40%;
+    height: 70%;
+}
+.indpic2{
     width: 100%;
     height: 100%;
 }
-.search{
-    margin-top: 30px;
-    margin-right: 50px;
+.wheat{
+    width: 500px;
+    height: 200px;
+    background-color: wheat;
+    border-radius: 15px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    text-align: center;
+}
+.box1{
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.owner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px;
 }
