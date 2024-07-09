@@ -108,6 +108,9 @@ input{
 }
 li:hover{
     scale: 1.2;
+    color: yellow;
+    font-size: medium;
+    border-bottom: 1px solid red;
 }
 /*  */
 /* card */
@@ -183,7 +186,7 @@ li:hover{
     height: 100%;
 }
 .wheat{
-    width: 500px;
+    width: 800px;
     height: 200px;
     background-color: wheat;
     border-radius: 15px;
@@ -194,7 +197,7 @@ li:hover{
 }
 .box1{
     background-color: white;
-    width: 200px;
+    width: 300px;
     height: 30px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
