@@ -52,13 +52,16 @@ h6{
     flex-direction: row;
     justify-content: space-between;
     /* background-color: red; */
-    height: 120px;
+    height: 100px;
 }
 .start{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+ 
 
+
+  
 }
 .end{
     display: flex;
@@ -67,16 +70,21 @@ h6{
 
 }
 .logo{
-    width: 50%;
-    height: 50%;
+    width: 250px;
+    height: 100px;
    
-    /* background-color: aqua; */
+     
 }
-.logo>.pic2{
+.pic2{
     width: 100%;
     height: 100%;
-    margin-top: 20px;
+
    
+   
+}
+.pic3{
+    margin: 20px;
+    margin-right: 40px;
 }
 
 .search{
@@ -103,12 +111,13 @@ input{
 }
 .link{
     /* transition: 2s; */
-    /* background-color: blue; */
-    margin-left: 120px;
+    margin-left: 20px;
+
+  
 }
 li:hover{
     scale: 1.2;
-    color: yellow;
+    /* color: yellow; */
     font-size: medium;
     border-bottom: 1px solid red;
 }
@@ -128,10 +137,46 @@ li:hover{
 /*  */
 /* qr */
 .content{
-    background-color: rgb(180, 180, 93);
+    background-color: rgb(243, 202, 140);
     width: 100%;
     height: 250px;
     margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.picture{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.qr{
+    width: 60%;
+    height: 60%;
+    margin: 50px;
+    margin-right: 160px;
+}
+.qrcode{
+    width: 100%;
+    height: 100%;
+}
+.logopic{
+    margin-right: 220px;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+p{
+    text-align: center;
+    width: 70%;
+    margin: 30px;
+    margin-left: 100px;
+}
+.code{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 /*  */
 /* divider */
@@ -169,37 +214,38 @@ li:hover{
     position: relative;
     width: 90%;
     height: 70%;
-    /* background-color: aqua; */
+     /* background-color: aqua;  */
     margin-left: 80px;
     margin-top: 50px;
 }
 .index2{
     position: absolute;
     top: 20%;
-    left: 50%;
-    /* background-color: red; */
-    width: 40%;
-    height: 70%;
+    left: 70%;
+    width: 35%;
+    /* background-color: red;  */
+    height: 80%;
 }
 .indpic2{
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 80%;
 }
 .wheat{
     width: 800px;
-    height: 200px;
+    height: 250px;
     background-color: wheat;
     border-radius: 15px;
     position: absolute;
     top: 30%;
-    left: 30%;
+    left: 25%;
     text-align: center;
 }
 .box1{
     background-color: white;
-    width: 300px;
+    width: 250px;
     height: 30px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
 }
 .owner{
     display: flex;
@@ -212,8 +258,9 @@ li:hover{
 .sub{
     background-color: rgb(33, 34, 77);
     width: 100%;
-    height: 1000px;
+    height: 900px;
     margin-top: 80px;
+    cursor: pointer;
 }
 h2{
     color: yellow;
@@ -236,3 +283,30 @@ h2{
 .ass{
     margin: 10px;
 }
+.h3{
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.h5{
+    margin: 10px;
+    color: white;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.no{
+    margin: 10px;
+    color: white;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+}
+/*  */
+/* grid */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+}
+
