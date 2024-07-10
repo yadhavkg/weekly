@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* nav1 */
+.nav{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+select{
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 8px;
+    margin-left: 28px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    margin-right: 10px;
+}
+li{
+    color: white;
+    margin-left: 50px;
+    list-style: none;
+    font-size: small;
+}
+h6{
+    color: white;
+}
+.dropdown{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70%;
+
+}
+.deliver{
+    color: white;
+    margin-left: 25px;
+    font-size: small;
+}
+/*  */
+/* nav2 */
+.bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: red; */
+    height: 100px;
+}
+.start{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ 
+
+
+  
+}
+.end{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 250px;
+    height: 100px;
+   
+     
+}
+.pic2{
+    width: 100%;
+    height: 100%;
+
+   
+   
+}
+.pic3{
+    margin: 20px;
+    margin-right: 40px;
+}
+
+.search{
+    margin-top: 40px;
+    margin-right: 100px;
+    
+}
+.new{
+    color: black;
+    font-size: 15px;
+    margin-left: 90px;
+    /* background-color: red; */
+}
+.red{
+    color: red;
+}
+input{
+    border: none;
+    border-bottom: 1px solid ;
+}
+.jerike{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.link{
+    /* transition: 2s; */
+    margin-left: 20px;
+
+  
+}
+li:hover{
+    scale: 1.2;
+    /* color: yellow; */
+    font-size: medium;
+    border-bottom: 1px solid red;
+}
+/*  */
+/* card */
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.card{
+    border: none;
+}
+/*  */
+/* qr */
+.content{
+    background-color: rgb(243, 202, 140);
+    width: 100%;
+    height: 250px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-cofont-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    ntent: space-between;
+}
+.picture{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.qr{
+    width: 60%;
+    height: 60%;
+    margin: 50px;
+    margin-right: 160px;
+}
+.qrcode{
+    width: 100%;
+    height: 100%;
+}
+.logopic{
+    margin-right: 220px;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+p{
+    text-align: center;
+    width: 70%;
+    margin: 30px;
+    margin-left: 100px;
+}
+.code{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+/*  */
+/* divider */
+.divide{
+    width: 100%;
+    margin-top: 30px;
+}
+/*  */
+/* head1 */
+.head{
+    text-align: center;
+    margin-top: 40px;
+}
+/*  */
+/* overflow */
+.father{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+}
+.son{
+    transition: .5s;
+}
+.outfit{
+    margin: 20px;
+}
+.son:hover{
+    scale: 1.2;
+}
+/*  */
+/* zindex */
+.white{
+    position: relative;
+    width: 90%;
+    height: 70%;
+     /* background-color: aqua;  */
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.index2{
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    width: 35%;
+    /* background-color: red;  */
+    height: 80%;
+}
+.indpic2{
+    width: 50%;
+    height: 80%;
+}
+.wheat{
+    width: 800px;
+    height: 250px;
+    background-color: wheat;
+    border-radius: 15px;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    text-align: center;
+}
+.box1{
+    background-color: white;
+    width: 250px;
+    height: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+.owner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px;
+}
+/*  */
+/* sub page */
+.sub{
+    background-color: rgb(33, 34, 77);
+    width: 100%;
+    height: 900px;
+    margin-top: 80px;
+    cursor: pointer;
+}
+h2{
+    color: yellow;
+    text-align: center;
+    padding: 20px;
+
+
+}
+.tag{
+    margin-left: 660px;
+    margin-top: 30px;
+ 
+}
+.roll{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+}
+.ass{
+    margin: 10px;
+}
+.h3{
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.h5{
+    margin: 10px;
+    color: white;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.no{
+    margin: 10px;
+    color: white;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+}
+/*  */
+/* grid */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    margin-left: 100px;
+    /* background-color: yellow; */
+}
+.mom1{
+    width: 100%;
+    height: 750px;
+}
+.baby1{
+    width: 100%;
+    height: 400px;
+    background-color: red;
+
+}
+.img1{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.deer{
+    width: 120px;
+    height: 48px;
+    margin-left: 350px;
+    color: white;
+}
+.arrival{
+    margin-left: 340px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.shop{
+    margin-left: 370px;
+    color: rgb(0, 255, 106);
+
+}
+.vava2{
+    background-color: rgb(74, 74, 139);
+    height: 130px;
+   
+}
+
+
