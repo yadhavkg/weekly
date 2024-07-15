@@ -417,7 +417,7 @@ h2{
 .yellow{
     width: 500px;
     height: 300px;
-    background-color: yellow;
+    background-color: rgb(226, 223, 19);
     position: absolute;
     top: 10%;
     right: 10%;
@@ -445,7 +445,7 @@ h2{
 }
 button{
     color: white;
-    background-color: blue;
+    background-color: rgb(74, 74, 139);
     border: none;
     width: 250px;
     height: 50px;
@@ -458,7 +458,7 @@ button{
 .navyblue{
     width: 100%;
     height: 80px;
-    background-color: blue;
+    background-color: rgb(74, 74, 139);
     margin-top: 60px;
     display: flex;
     flex-direction: row;
@@ -467,16 +467,19 @@ button{
 }
 .but{
     
-    background-color: yellow;
+    background-color: rgb(226, 223, 19);
     color: black;
 }
 .halfyel{
-    color: yellow;
+    color: rgb(226, 223, 19);
+}
+.switch{
+    margin-bottom: 18px;
 }
 /*  */
 /* yellow2 */
 .yellow2{
-    background-color: yellow;
+    background-color: rgb(226, 223, 19);
     width: 100%;
     height: 160px;
     margin-top: 50px;
@@ -500,7 +503,7 @@ button{
 .loc{
     font-size: 30px;
     /* background-color: red; */
-    margin-left: 30px;
+    margin-left: 50px;
 }
 .store{
     font-size: 30px;
@@ -508,17 +511,17 @@ button{
 }
 .inputbox{
     /* background-color: orange; */
-    margin-left: -240px;
+    margin-left: -350px;
 }
 .inp{
     height: 40px;
     border-radius: 5px;
 }
 .linkk{
-    margin-left: -240px;
+    margin-left: -350px;
 }
 .write{
-    margin-left: -260px;
+    margin-left: -350px;
 }
 /*  */
 /* bluebtn */
