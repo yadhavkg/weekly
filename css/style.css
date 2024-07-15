@@ -29,6 +29,7 @@ li{
     margin-left: 50px;
     list-style: none;
     font-size: small;
+    margin-top: 2px;
 }
 h6{
     color: white;
@@ -44,6 +45,20 @@ h6{
     color: white;
     margin-left: 25px;
     font-size: small;
+}
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    margin-top: 3px;
 }
 /*  */
 /* nav2 */
@@ -130,9 +145,16 @@ li:hover{
     margin-top: 80px;
     margin-left: 50px;
     margin-right: 50px;
+    margin-bottom: 20px;
 }
 .card{
     border: none;
+}
+.cardname{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(10, 10, 63);
 }
 /*  */
 /* qr */
@@ -469,18 +491,100 @@ button{
 .logooo{
     width: 150px;
     height: 150px;
+    margin-left: 250px;
+    /* background-color: aqua; */
 }
 .refer{
     color: white;
+}
+.loc{
+    font-size: 30px;
+    /* background-color: red; */
+    margin-left: 30px;
+}
+.store{
+    font-size: 30px;
+    /* background-color: blue; */
+}
+.inputbox{
+    /* background-color: orange; */
+    margin-left: -240px;
+}
+.inp{
+    height: 40px;
+    border-radius: 5px;
+}
+.linkk{
+    margin-left: -240px;
+}
+.write{
+    margin-left: -260px;
 }
 /*  */
 /* bluebtn */
 .bluebtn{
     color: white;
-    background-color: blue;
+   
     margin: 40px;
     margin-left: 750px;
     width: 450px;
     height: 80px;
     border-radius: 10px;
+}
+/*  */
+/* ICONS */
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+/*  */
+/* line */
+.line{
+    border-top:1px solid black;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 250px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 60px;
+}
+.hl{
+    width: 100px;
+    height: ;
+}
+.community{
+    margin-left: 300px;
+}
+.about{
+    margin-left: 150px;
+}
+.need{
+    margin-left: 100px;
+}
+.a16{
+    margin-top: 15px;
+
+}
+/*  */
+/* bla */
+.bla{
+    padding: 35px;
+}
+.b1{
+    margin-top: 15px;
+}
+.last{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.l{
+    margin-left: 20px;
 }
