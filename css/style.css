@@ -405,23 +405,31 @@ h2{
     width: 150px;
     height: 60px;
     margin-left: 20px;
+    margin-top: 10px;
 }
 .sarath{
     color: black;
     margin-left: 20px;
-    background-color: red;
+    font-size: 30px;
 }
 .jeevan{
     color: black;
     margin-left: 20px;
-    background-color: yellowgreen;
+    font-size: 30px;
+}
+.evin{
+    margin-left: 20px;
+    margin-top: 10px;
 }
 button{
     color: white;
     background-color: blue;
     border: none;
-    width: 200px;
-    height: 30px;
+    width: 250px;
+    height: 50px;
+    margin-left: 120px;
+    border-radius: 10px;
+    margin-top: 20px;
 }
 /*  */
 /* blue */
@@ -437,8 +445,11 @@ button{
 }
 .but{
     
-    background-color: white;
+    background-color: yellow;
     color: black;
+}
+.halfyel{
+    color: yellow;
 }
 /*  */
 /* yellow2 */
@@ -457,7 +468,10 @@ button{
 }
 .logooo{
     width: 150px;
-    height: 60px;
+    height: 150px;
+}
+.refer{
+    color: white;
 }
 /*  */
 /* bluebtn */
